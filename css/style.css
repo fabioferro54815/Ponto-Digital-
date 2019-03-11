@@ -1,0 +1,36 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Raleway Italic' , cursive;
+}
+.container{
+    width: 100%;
+}
+.content{
+    width: 90%;
+    margin: auto;
+}
+
+/* começo barra de nav */
+
+header{
+    background-color: #f2a620;
+    font-family: 'Staatliches' , sans-serif;
+    display: flex;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+
+}
+.lista{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
