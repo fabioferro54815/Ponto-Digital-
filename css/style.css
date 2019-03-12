@@ -1,12 +1,11 @@
 *{
-    margin: 0 auto;
-    padding: 0 auto;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 body{
     width: 100%;
     height: 100%;
-    font-family: 'Raleway Italic' , cursive;
 }
 .container{
     width: 100%;
@@ -14,6 +13,8 @@ body{
 .content{
     width: 90%;
     margin: auto;
+    display: flex;
+
 }
 
 /* começo barra de nav */
@@ -21,16 +22,96 @@ body{
 header{
     background-color: #f2a620;
     font-family: 'Staatliches' , sans-serif;
-    display: flex;
-}
-nav{
-    display: flex;
-    flex-direction: column;
+    position: fixed;
 
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
 }
 .lista{
+    width: 100%;
     display: flex;
-    justify-content: space-between;
-    flex-direction: row;
+    justify-content: space-evenly;
+    
+    list-style-type: none;
+    font-size: 2em;
+    color: #00347f;
+}
+.lista a{
+    color: #00347f;
+}
+nav{
+    width: 80%;
+    margin: 10px;
 }
 
+.lista1{
+    width: 90%;
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+}
+.lista1 li:nth-child( 1){
+    margin-right: 100px;
+    font-family: 'Sui Generis';
+    font-size: 2em;
+}
+.lista1 > li{
+    font-family: 'Staatliches';
+    font-size: 2em; 
+    margin-bottom: 10px;
+}
+.lista1 li > li  a{
+    color: #00347f;
+}
+.lista1 a{
+    color: #00347f;
+}
+.lista1 img{
+    width: 40px;
+    height: 25px;
+}
+
+header img{
+    max-width: 90px;
+    max-height: 100px;
+    
+}
+li a{
+    text-decoration: none;
+}
+
+/* fim nav */
+
+/* começo banner */
+#banner{
+    background-color: #7c7c7c;
+    height: 100vh;
+}
+.foto_banner{
+    display: flex;
+    justify-content: center;
+    
+}
+.foto_banner img{
+    width: 100%;
+    height: 100%;
+}
+.foto_banner div{
+    width: 80%;
+    height: 80vh;
+    margin-top: 160px;
+    border: 6px solid #f2a620;
+}
+
+/* fim banner */
+
+/* começo produto */
+
+#produto{
+    background-color: #9e9e9e;
+    height: 100vh;
+    font-family: ' Staatliches'
+}
