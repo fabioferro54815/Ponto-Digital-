@@ -16,6 +16,17 @@ body{
     display: flex;
 
 }
+h1{
+    display: none;
+}
+h2{
+    font-family: 'Staatliches' , cursive;
+    font-size: 3em;
+}
+h3{
+    font-family: 'Staatliches' , cursive;
+    font-size: 4em;
+}
 
 /* começo barra de nav */
 
@@ -112,6 +123,69 @@ li a{
 
 #produto{
     background-color: #9e9e9e;
+    height: 100vh;   
+}
+.text_foto{
+    display: flex;
+    justify-content: space-evenly;
+}
+.icone{
+    display: flex;
+    justify-content: space-evenly;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    width: 35%;
+}
+.prod_img{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    border: 6px solid #f2a620;
+}
+.text p{
+    font-family: 'Raleway';
+    font-style: italic;
+    font-size: 2em;
+    margin-top: 10px;
+}
+.text h2{
+    margin-top: 150px;
+    margin-left: 200px;
+}
+.icone div img{
+    margin-left: 115px;
+    width: 100px;
+    height: 100px;
+}
+.icone div p{
+    font-family: 'Raleway';
+    font-style: italic;
+    font-size: 2em;
+}
+
+/* fim produto */
+
+/* começo planos */
+
+#planos{
+    background-color: #a9a9a9;
     height: 100vh;
-    font-family: ' Staatliches'
+
+}
+#planos div h2{
+    padding-top:150px;
+}
+.plans{
+    border: 6px solid #000;
+    width: 250px;
+    height: 300px;
+    border-radius: 8px;
+}
+.plans img{
+    width: 100%;
+    height: 100%;
 }
