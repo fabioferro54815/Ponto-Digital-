@@ -25,9 +25,8 @@ h2{
 }
 h3{
     font-family: 'Staatliches' , cursive;
-    font-size: 4em;
+    font-size: 2.5em;
 }
-
 /* começo barra de nav */
 
 header{
@@ -174,10 +173,33 @@ li a{
 #planos{
     background-color: #a9a9a9;
     height: 100vh;
-
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
 }
-#planos div h2{
-    padding-top:150px;
+#planos p{
+    font-family: 'Sui Generis';
+    text-align: center;
+    font-size: 2.5em;
+    padding-top: 10px;
+}
+#planos p > a{
+    color: #f2a620;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #005eb9;
+}
+.textos_planos{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: column;
+}
+.textos_planos h2{
+    padding-top: 90px;
+}
+.textos_planos h3{
+    padding-top: 70px;
+    margin-bottom: -30px
 }
 .plans{
     border: 6px solid #000;
@@ -188,4 +210,99 @@ li a{
 .plans img{
     width: 100%;
     height: 100%;
+}
+.planos_img{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+/* fim planos */
+
+/* começo quem somos */
+
+#quem_somos{
+    background-color: #b3b3b3;
+    height: 150vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.quemconteudo{
+    display: flex;
+    justify-content: space-evenly;;
+    align-content: center;
+    padding-top: 100px;
+}
+.quemimg{
+    border: 6px solid #f2a620;
+}
+.quemimg img{
+    width: 100%;
+    height: 100%;
+}
+.quemtexto{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+}
+.quemtexto p{
+    font-family: 'Raleway';
+    font-style: italic;
+    font-size: 2em;
+}
+.mapa_pai{
+    display: flex;
+    justify-content: center;
+}
+.mapa{
+    display: flex;
+    justify-content: center;
+    border: 6px solid #f2a620;
+}
+.quemtexto h2{
+    margin-left: 190px;
+    margin-bottom: 30px;
+}
+
+/* fim quem somos */
+
+/* começo faq */
+
+#faq{
+    background-color: #bebebe;
+    height: 140vh;
+}
+#faq h2{
+    text-align: center;
+    padding-top: 150px;
+    margin-bottom: 50px;
+}
+#faq div:nth-child(even) p {
+    background-color:#f2a620 ;
+    font-family: 'Raleway';
+    font-style: italic;
+    font-size: 1.5em;
+    margin: 0 0 0 auto;
+    width: 60%
+    
+}
+#faq div:nth-child(odd) p{
+    background-color: #2083f2;
+    font-family: 'Staatliches';
+    font-size: 2em;
+    margin: 0 0 auto 0;
+}
+#faq div > p{
+    border: 4px solid #000;
+    border-radius: 14px;
+}
+.pr{
+    width: 90%;
+    margin: auto;
+}
+#faq div > div{
+    margin: 10px;
 }
