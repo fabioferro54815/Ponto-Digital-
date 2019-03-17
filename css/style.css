@@ -130,6 +130,7 @@ li a{
 .text_foto{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 .icone{
     display: flex;
@@ -662,7 +663,55 @@ footer{
     header img{
         margin-left: -90px;
     }
-
+    .foto_banner img {
+        height: 20vh;
+    }
+    .text p{
+        width: 200px;
+        margin-left: -40px;
+    }
+    .prod_img img {
+        max-width: 300px;
+    }
+    .text h2 {
+        margin-left: -25px;
+        margin-top: 60px;
+    }
+    .prod_img{
+        margin-top: 30px;
+    }
+    .icone {
+        padding: 60px;
+        margin-left: 0;
+    }
+    .icone div img {
+        width: 60px;
+        height: 70px;
+    }
+    #planos {
+        height: 200vh;
+    }
+    #produto {
+        height: 90vh;
+    }
+    .icone_xd{
+        margin-right: 19px;
+    }
+    .quemimg {
+        height: 220px;
+    }
+    .quemtexto h2 {
+        margin-left: -50px;
+    }
+    .quemtexto p {
+        font-size: 1.2em;
+        width: 290px;
+        margin-left: -74px;
+    }
+    #faq {
+        height: 170vh;
+    }
+    
 
 
 
