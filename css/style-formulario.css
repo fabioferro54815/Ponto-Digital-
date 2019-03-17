@@ -58,6 +58,7 @@ label{
     font-family: 'Sui Generis';
     font-size: 2em;
     margin-right: 10px;
+    width: 200px;
 }
 input{
     width: 50%;

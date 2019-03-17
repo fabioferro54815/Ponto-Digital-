@@ -1,0 +1,21 @@
+.login{
+    background-color: #a9a9a9;
+    height: 110vh; 
+}
+.login h2{
+    padding-top: 200px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.crie_conta{
+    font-family: 'Sui Generis';
+    font-size: 2em;
+    text-align: center;
+}
+.crie_conta a{
+    color: #f2a620;
+}
+.crie_conta a:hover{
+    -webkit-text-stroke-width: 2.5px;
+    -webkit-text-stroke-color: #00347f;
+}
