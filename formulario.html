@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ponto Digital</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-formulario.css">
+    <link rel="icon" type="imagem/png" href="img/favicon.png"/>
+</head>
+<body>
+    <header class="container" >
+        <div class="content">
+            <div class="logo">
+                <h1>Ponto Digital</h1>
+                <a href="index.html"><img src="img/logocorte.png" alt="Logo ponto digital"></a>
+            </div>
+            <nav class="menu">
+                <ul class="lista1">
+                    <li><a href="#" style="color:#005eb9; -webkit-text-stroke-width: 3px;
+                    -webkit-text-stroke-color: #00347f;">LOGIN</a></li>
+                <li><a href="#">IDIOMAS</a></li>
+                <li><img src="img/2000px-Flag_of_Brazil.svg.png" alt="bandeira do brazil"></li>
+            </ul>
+            <div>
+                <ul class="lista">
+                    <li><a href="index.html#produto">PRODUTO</a></li>
+                    <li><a href="index.html#planos">PLANOS</a></li>
+                    <li><a href="index.html#quem_somos">QUEM SOMOS</a></li>
+                    <li><a href="index.html#faq">FAQ</a></li>
+                    <li><a href="index.html#depoimentos">DEPOIMENTOS</a></li>
+                </ul>
+            </div>
+        </nav>
+        <span id="btn_menu" class="botao_menu">
+               <img src="img/logocorte.png">
+            </span>
+    </div>
+</header>
+<body>
+    <section class="formulario">
+        <h2>Formulário</h2>
+        <main>
+            <form>
+                <div class="resgis">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" maxlength="40" minlength="3">
+                </div>
+                <div class="resgis">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" maxlength="50" minlength="3">
+                </div>
+                <div class="resgis">
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" maxlength="40" minlength="3">
+                </div>
+                <div class="resgis">
+                    <label for="assunto">Assunto:</label>
+                    <input type="text" id="assunto" maxlength="40" minlength="3">
+                </div>
+                <div class="resgis">
+                    <label for="mensagem">Mensagem:</label>
+                    <input type="text" id="Mensagem" maxlength="40" minlength="3">
+                </div>
+                <div class="send">
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
+        </main>
+        <div class="abcd">
+            <div>
+                <h2>Ainda com problemas? Tente o atendimento por telefone:</h2>
+            </div>
+            <div class="tel_pro">
+                <div class="contato">
+                    <div>
+                        <img src="img/telephone_icon-icons.com_70849.png" alt="telefone">
+                    </div>
+                    <div>
+                        <div>
+                            <hgroup>
+                                <h3>Contato</h3>
+                                <h4>+55 (11) 1234-5345</h4>
+                            </hgroup>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="favi">
+            <img src="img/logocorte.png" alt="logo ponto digital">
+        </div>
+        <div class="icones">
+            <a href="https://twitter.com/login?lang=pt"><img src="img/Twitter_logo_2012.svg.png" alt="logo twitter"></a>
+            <a href="https://www.instagram.com/"><img src="img/Instagram_icon.png" alt="logo instagram"></a>
+            <a href="https://pt-br.facebook.com/"><img src="img/fb_icon_325x325.png" alt="logo facebook"></a>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(function() {
+        var nav = $('.menu');
+        var botao = $('.botao_menu');
+        botao.on('click', function(){
+             nav.toggleClass("active");
+        });
+        });
+    </script>
+</body>
+</html>
